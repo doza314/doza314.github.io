@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body p, ul, li {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ h2 {
     color: #a1a1a1;
 }
 
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #252525;
@@ -105,4 +103,4 @@ footer {
     color: #a1a1a1;
     
 }
-/* Add more CSS rules to style other pages as needed */
+
