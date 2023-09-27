@@ -5,7 +5,7 @@ body p, ul, li {
 }
 
 h1 {
- margin-top: 5px;
+ margin-top: 20px;
  margin-bottom:5px;
  font-size: 35px;
  color: #ededed
@@ -16,7 +16,7 @@ h2 {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica;
     background-color: #252525
 }
 
@@ -126,7 +126,7 @@ main {
 }
 
 .res-list h1 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .date {
     font-size:17px;
