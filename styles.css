@@ -106,7 +106,12 @@ footer {
         padding: 10px; /* Adjust padding for smaller screens */
     }
 
-    #icon1,
+    #icon1 {
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        left: 20px;
+    }
     #icon2 {
         width: 30px;
         height: 30px;

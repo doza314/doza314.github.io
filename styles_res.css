@@ -189,12 +189,19 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
     header {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;
     }
 
-    #icon1,
-    #icon2 {
+    #icon1{
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        left: 20px;
+    }
+
+     #icon2 {
         width: 30px;
         height: 30px;
         top: 15px;
