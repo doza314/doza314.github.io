@@ -198,47 +198,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    header { 
-        width: 580px;
-        padding: 10px;
-    }
-
-    #icon1 {
-        width: 30px;
-        height: 30px;
-        top: 15px;
-        left: 20px;
-    }
-    #icon2 {
-        width: 30px;
-        height: 30px;
-        top: 15px;
-        right: 20px;
-    }
-
-    #icon3 {
-        width: 30px;
-        height:30px;
-        top: 15px;
-        right: 20px;
-    }
-
-main {
-        max-width: 580px;
-        height:auto;
-        margin: 10px;
-        margin-right: 10px;
-        padding: 10px;
-}
-
-p {
-    max-width: 560px;
-    font-size: 10px;    
-}
-
-    footer {
-        font-size: 14px;
-    }
 }
 
 

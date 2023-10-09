@@ -144,47 +144,5 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    header {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
-    h1 {
-        float: left;
-        font-size: 16px;
-    }
-
-    #icon1 {
-        width: 30px;
-        height: 30px;
-        top: 15px;
-        right: 20px;
-    }
-    #icon2 {
-        width: 30px;
-        height: 30px;
-        top: 15px;
-        right: 70px;
-    }
     
-    #icon3 {
-
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    #profile-image {
-        width: 100%;
-        height: auto;
-        float: none;
-        margin-left: 0;
-    }
-
-    main {
-        width: auto;
-        height: auto;
-        margin: 10px;
-        padding: 10px;
-    }
 }
