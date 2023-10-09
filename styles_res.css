@@ -233,9 +233,12 @@ footer {
     .res-experience h3 {
         font-size: 14px;
     }
-
-    p, .res-list p, .certs p, .res-experience p, .res-experience li, .res-list ul li {
-        font-size: 14px;
+    .res-experience p {
+        font-size: 10px;
+        margin: 5px
+    }
+    .res-list p, .certs p, .res-experience li, .res-list ul li {
+        font-size: 10px;
     }
 
     main, .res-experience, .res-list {
