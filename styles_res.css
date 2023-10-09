@@ -222,44 +222,13 @@ footer {
         right: 20px;
     }
 
-    h1, .res-h1 {
-        font-size: 18px;
-    }
-
-    h2, .res-experience h2 {
-        font-size: 20px;
-    }
-
-    .res-experience h3 {
-        font-size: 14px;
-    }
-    .res-experience p {
-        max-width: 580px;
-        font-size: 10px;
-        margin: 5px
-    }
-    .res-list p, .certs p, .res-experience li, .res-list ul li {
-        font-size: 10px;
-    }
 main {
         width: auto;
         height:auto;
         margin: 10px;
         padding: 10px;
-
-
 }
 
-    .res-experience ul, .res-list ul {
-        margin-top: 10px;
-    }
-
-    .res-experience li, .res-list ul li {
-        margin-top: 8px;
-        margin-left: 25px;
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
 
     footer {
         font-size: 14px;
