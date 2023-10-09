@@ -215,8 +215,15 @@ footer {
         right: 20px;
     }
 
+    #icon3 {
+        width: 30px;
+        height:30px;
+        top: 15px;
+        right: 20px;
+    }
+
     h1, .res-h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     h2, .res-experience h2 {
@@ -231,7 +238,8 @@ footer {
         font-size: 14px;
     }
 
-    main, .res-experience {
+    main, .res-experience, .res-list {
+        max-width:580px;
         margin: 10px;
         padding: 10px;
     }
