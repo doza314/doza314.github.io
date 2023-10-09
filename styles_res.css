@@ -223,14 +223,14 @@ footer {
     }
 
 main {
-        width: auto;
+        max-width: 580px;
         height:auto;
         margin: 10px;
         padding: 10px;
 }
 
 p {
-    width: auto;
+    max-width: 560px;
     font-size: 10px;    
 }
 
