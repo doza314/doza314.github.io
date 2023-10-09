@@ -234,6 +234,7 @@ footer {
         font-size: 14px;
     }
     .res-experience p {
+        max-width: 580px;
         font-size: 10px;
         margin: 5px
     }
