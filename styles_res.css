@@ -229,6 +229,10 @@ main {
         padding: 10px;
 }
 
+p {
+    width: auto;
+    font-size: 10px;    
+}
 
     footer {
         font-size: 14px;
