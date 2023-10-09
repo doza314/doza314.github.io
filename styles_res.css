@@ -240,12 +240,14 @@ footer {
     .res-list p, .certs p, .res-experience li, .res-list ul li {
         font-size: 10px;
     }
-
-    main, .res-experience, .res-list {
-        max-width:580px;
+main {
+        width: auto;
+        height:auto;
         margin: 10px;
         padding: 10px;
-    }
+
+
+}
 
     .res-experience ul, .res-list ul {
         margin-top: 10px;
