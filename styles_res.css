@@ -199,17 +199,17 @@ footer {
 
 @media only screen and (max-width: 600px) {
     header {
-        width: 800px;
+        width: 1350px;
     }
 
     #icon1 {
-        right: -395px;
+        right: -945px;
     }
     #icon2 {
-        right: -340px;
+        right: -890px;
     }
     #icon3 {
-        right: -450px;
+        right: -1000px;
     }
 }
 
