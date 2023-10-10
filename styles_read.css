@@ -144,5 +144,17 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    
+    header {
+        width: 800px;
+    }
+
+    #icon1 {
+        right: -395px;
+    }
+    #icon2 {
+        right: -340px;
+    }
+    #icon3 {
+        right: -450px;
+    }
 }
