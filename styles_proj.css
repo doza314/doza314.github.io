@@ -119,6 +119,9 @@ footer {
     margin-left: 150px;
 }
 
+.thing iframe {
+    margin-left: 125px;
+}
 .thing h2 {
     font-size:18px;
     color: #ededed;
