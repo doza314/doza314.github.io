@@ -119,8 +119,11 @@ footer {
     margin-left: 150px;
 }
 
-.thing iframe {
+.thing video {
     margin-left: 125px;
+    width:600px;
+    height:300px;
+    margin-left: 100px;
 }
 .thing h2 {
     font-size:18px;
