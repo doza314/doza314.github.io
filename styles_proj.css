@@ -113,6 +113,12 @@ footer {
     color: #ededed;
 }
 
+.thing img {
+    width: 500px;
+    height: 800px;
+    margin-left: 150px;
+}
+
 .thing h2 {
     font-size:18px;
     color: #ededed;
