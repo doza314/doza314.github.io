@@ -58,6 +58,12 @@ header {
     right: 110px;
 }
 
+.icon-container {
+  position: absolute;
+  top: 30px;
+  right: 110px;
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -115,14 +121,15 @@ footer {
         text-align: center;
     }
 
-    #icon2, #icon3 {
-        position: relative;
-        display: inline-block;
-        margin: 10px 5px;
-    }
+.icon-container {
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+  }
 
-    .icon-container {
-        text-align: center;
-    }
+  #icon2, #icon3 {
+    display: inline-block;
+    margin: 10px 5px;
+  }
 
 }
