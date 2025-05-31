@@ -108,28 +108,28 @@ footer {
 
 @media only screen and (max-width: 600px) {
     header {
+        text-align: left;
         width: 100%;
-        padding: 10px;
+        padding: 1%;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
         align-items: center;
     }
 
+    nav ul {
+        display: flex;
+        gap: 20px; /* space between About Me and Projects */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
     nav ul li {
-        display: block;
+        display: inline;
         margin: 10px 0;
         text-align: center;
     }
 
-.icon-container {
-    position: static;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #icon2, #icon3 {
-    display: inline-block;
-    margin: 10px 5px;
-  }
 
 }
