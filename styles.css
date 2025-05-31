@@ -82,6 +82,11 @@ footer {
     color: #ededed;
 }
 
+a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 @media only screen and (max-width: 600px) {
     header {
         text-align: center;
