@@ -16,6 +16,7 @@ body p, ul, li {
 
 
 h1 {
+ text-align: center;
  margin-top: 2.5px;
  margin-bottom:5px;
  font-size: 35px;
@@ -150,7 +151,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     header {
-        text-align: left;
+        text-align: center;
         width: 100%;
         padding: 1%;
         display: flex;
@@ -161,7 +162,7 @@ footer {
 
     nav ul {
         display: flex;
-        gap: 20px; /* space between About Me and Projects */
+        gap: 20px; 
         list-style: none;
         padding: 0;
         margin: 0;
@@ -172,16 +173,5 @@ footer {
         margin: 10px 0;
         text-align: center;
     }
-
-.icon-container {
-    position: relative;
-    text-align: right;
-    margin-top: 1%;
-  }
-
-  #icon2, #icon3 {
-    display: inline-block;
-    margin: 10px 5px;
-  }
 
 }
