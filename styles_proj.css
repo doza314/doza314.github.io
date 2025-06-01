@@ -152,6 +152,26 @@ footer {
         overflow-wrap: break-word;
     }
 
+    #link
+    {
+        color:#00bfff ;
+        text-decoration: none;
+    }
+
+    #link:hover
+    {
+        text-decoration:underline;
+    }
+
+    #link:visited
+    {
+        color:#800080;
+    }
+
+    a:active 
+    {
+        color: #ff0000; /* when clicked */
+    }
 @media only screen and (max-width: 600px) {
     header {
         text-align: center;
