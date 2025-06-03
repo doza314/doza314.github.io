@@ -181,7 +181,7 @@ footer {
 
     a:active 
     {
-        color: #ff0000; /* when clicked */
+        color: rgb(17, 255, 0); /* when clicked */
     }
 @media only screen and (max-width: 600px) {
     header {
