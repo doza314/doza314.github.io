@@ -88,6 +88,11 @@ a {
   overflow-wrap: break-word;
 }
 
+ a:active 
+    {
+        color: rgb(17, 255, 0); /* when clicked */
+        text-decoration-color: rgb(17, 255, 0);
+    }
 
 @media only screen and (max-width: 600px) {
     header {
