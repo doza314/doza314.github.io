@@ -102,8 +102,14 @@ nav ul li a:hover{
 }
 
 #page {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+#page:hover
+{
     text-decoration: underline;
-    color: #ededed;
+    text-decoration-color: #00bfff;
 }
 
 #back 
@@ -181,11 +187,6 @@ footer {
     #link:hover
     {
         text-decoration:underline;
-    }
-
-    #link:visited
-    {
-        color:#800080;
     }
     
 
