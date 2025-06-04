@@ -117,7 +117,7 @@ a {
 
     nav ul {
         display: flex;
-        gap: 20px; /* space between About Me and Projects */
+        gap: 20px;
         list-style: none;
         padding: 0;
         margin: 0;
@@ -127,7 +127,6 @@ a {
         display: inline;
         margin: 10px 0;
         text-align: center;
-        text-decoration: underline;
     }
 
 
