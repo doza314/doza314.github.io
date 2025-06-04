@@ -1,8 +1,10 @@
 html, body {
+  background-color: #252525;
   margin: 0;
   padding: 0;
-  background-color: #252525;
   padding-top: env(safe-area-inset-top);
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -43,9 +45,12 @@ h2 {
 header {
     background-color: #2e2e2e;
     color: #ededed;
-    padding: 15px;
+    padding: 8px 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 95%;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -88,6 +93,7 @@ main {
     line-height: 30px;
     background-color: #2e2e2e;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 footer {
