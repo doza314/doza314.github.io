@@ -46,6 +46,7 @@ header {
 }
 
 #icon2 {
+    color:#a3ffbb;
     position: absolute;
     width: 50px;
     height: 50px;
@@ -55,12 +56,24 @@ header {
 }
 
 #icon3 {
+    color:#a3ffbb;
     position: absolute;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     top:30px;
     right: 110px;
+}
+
+#icon2, #icon3 {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+
+#icon3, 
+#icon2:active
+{
+    color:rgb(17, 255, 0);
 }
 .icon-container {
   position: relative;
@@ -75,23 +88,31 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 15px;
-    text-decoration: underline;
+}
+
+nav ul li a {
+    color: #00bfff; /* when clicked */
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #00bfff ; /* when clicked */
+    text-decoration:underline;
+    text-decoration-color:#00bfff ;
 }
 
 #page {
     text-decoration: underline;
     color: #ededed;
 }
+
 #back 
 {   
     text-decoration: none;
     color: #ededed;
 }
 
-nav ul li a {
-    color: #ededed;
-    text-decoration: none;
-}
+
 #profile-image {
     width: 190px;
     height: 220px;
@@ -138,18 +159,6 @@ footer {
     color: #ededed;
 }
 
-.icon-container {
-    position: static;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #icon2, #icon3 {
-    display: inline-block;
-    margin: 10px 5px;
-  }
-
-
     .thing img,
     .thing video {
         width: 100%;
@@ -179,11 +188,6 @@ footer {
         color:#800080;
     }
     
-     a:active 
-    {
-        color: rgb(17, 255, 0); /* when clicked */
-        text-decoration-color: rgb(17, 255, 0);
-    }
 
 @media only screen and (max-width: 600px) {
     header {

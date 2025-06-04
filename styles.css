@@ -47,13 +47,19 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 15px;
-    text-decoration: underline;
 }
 
 nav ul li a {
-    color: #ededed;
+    color: #00bfff; /* when clicked */
     text-decoration: none;
 }
+
+nav ul li a:hover{
+    color: #00bfff ; /* when clicked */
+    text-decoration:underline;
+    text-decoration-color:#00bfff ;
+}
+
 #profile-image {
     width: 190px;
     height: 220px;
@@ -88,11 +94,6 @@ a {
   overflow-wrap: break-word;
 }
 
- a:active 
-    {
-        color: rgb(17, 255, 0); /* when clicked */
-        text-decoration-color: rgb(17, 255, 0);
-    }
 
 @media only screen and (max-width: 600px) {
     header {
